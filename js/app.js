@@ -4,7 +4,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('home', {
       templateUrl: 'js/home/homeTmpl.html',
-      controller: 'js/home/homeCtrl.js',
+      controller: 'homeCtrl.js',
       url: '/'
     })
     .state('settings', {
